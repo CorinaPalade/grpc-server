@@ -16,7 +16,7 @@ class UsageServer(usage_pb2_grpc.MeterUsageServicer):
             return usage_pb2.MeterUsageResponse(data=None)
         
         file = open(self.METER_FILE_PATH, 'r')
-        file_content=file.read();
+        file_content=file.read()
         
         return usage_pb2.MeterUsageResponse(data=file_content)
 
