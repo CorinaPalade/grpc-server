@@ -1,3 +1,5 @@
+# inspired from examples found at https://www.grpc.io/docs/languages/python/
+
 import grpc
 import csv
 import os
@@ -15,10 +17,6 @@ class UsageServer(usage_pb2_grpc.MeterUsageServicer):
         
         file = open(self.METER_FILE_PATH, 'r')
         file_content=file.read();
-        # with open(self.METER_FILE_PATH) as csvfile:
-        #     spamreader = csv.reader(csvfile, delimiter=' ')
-        #     for row in spamreader:
-        #         print(', '.join(row))
         
         return usage_pb2.MeterUsageResponse(data=file_content)
 

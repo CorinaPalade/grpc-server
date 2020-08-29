@@ -1,0 +1,53 @@
+#buttons-menu {
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.table-wrapper {
+    width: 75%;
+    margin-left: 5%;
+}
+
+th, td {
+    width: 10%;
+}
+
+#day-selector-div {
+    margin-left: 30%; 
+    margin-top: 2%; 
+    width: 35%;
+}
+
+#chart-div {
+    height: 30%; 
+    width: 80%; 
+    margin-left: 10%; 
+    margin-top: 2%; 
+    margin-right: 5%;
+}
+
+#overall-table {
+    margin-left: 5%;
+}
+
+#table-header {
+    margin-bottom: 0px !important; 
+    margin-top: 5%;
+}
+
+#table-body-div {
+    margin-top: 0px !important; 
+    height: 500px; 
+    width: 75.75%;
+}
+
+#raw-json {
+    margin-left: 5%; 
+    margin-top: 5%; 
+    width: 85%; 
+    height: 500px;
+}
+
+#raw-json-text-area {
+    height: 500px;
+}
