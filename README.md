@@ -96,3 +96,9 @@ In creating this project, I used [gRPC for Python](https://grpc.io/docs/language
 
 The communication between the gRPC server and client is based on the one from the
 [official examples](https://github.com/grpc/grpc/tree/master/examples/python/helloworld). 
+
+The chart is based on the example shown [here](https://www.chartjs.org/docs/latest/).
+
+Elements from the HTML are based on the [official Bootstrap examples](https://getbootstrap.com/),
+such as the "Select day" option, which is based on the examples [here](https://getbootstrap.com/docs/4.0/components/input-group/#custom-select), the buttons group that is based on the examples [here](https://getbootstrap.com/docs/4.0/components/button-group/)
+and the table that is based on the examples [here](https://getbootstrap.com/docs/4.0/content/tables/).
